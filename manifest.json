@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "make-link",
+    "version": "1.0",
+    "description": "A shortcut for UWaterloo's proxy link generator https://uwaterloo.ca/library/make-link/",
+    "icons": {
+        "48": "icons/icon_square.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "icons/icon_square.png",
+        "default_title": "make-link"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "make-link@sudo-smiley.github.com"
+        }
+    }
+}
