@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "make-link",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "A shortcut for UWaterloo's proxy link generator https://uwaterloo.ca/library/make-link/",
     "icons": {
         "48": "icons/icon_square.png"
